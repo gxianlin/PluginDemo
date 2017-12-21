@@ -1,0 +1,20 @@
+ext {
+    //统一各组件一些配置
+
+    //组件化开发时，用此变量来控制各组件是一个module还是一个独立apk
+    isApplication = false
+
+    android = [
+            compileSdkVersion: 25,
+            buildToolsVersion: "26.0.1",
+            applicationId    : "com.ilynn.plugindemo",
+            minSdkVersion    : 15,
+            targetSdkVersion : 25,
+            versionCode      : 1,
+            versionName      : "1.0.0"
+    ]
+    dependencies = [
+            supportv7: 'com.android.support:appcompat-v7:25.3.1',
+            constraint:'com.android.support.constraint:constraint-layout:1.0.2'
+    ]
+}
