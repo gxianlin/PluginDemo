@@ -18,6 +18,10 @@ android {
         versionCode rootProject.ext.android.versionCode
         versionName rootProject.ext.android.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        //组件与组件之间的资源命名冲突
+        //作用：在创建资源文件时命名会自动添加前缀
+        resourcePrefix "moduleb_"
     }
     buildTypes {
         release {
@@ -50,6 +54,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile rootProject.ext.dependencies.supportv7
+    compile rootProject.ext.dependencies.design
     compile rootProject.ext.dependencies.constraint
     testCompile 'junit:junit:4.12'
+    compile project(':base')
 }

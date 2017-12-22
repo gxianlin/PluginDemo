@@ -21,7 +21,7 @@ android {
 
         //组件与组件之间的资源命名冲突
         //作用：在创建资源文件时命名会自动添加前缀
-//        resourcePrefix "modulea_"
+        resourcePrefix "modulea_"
     }
     buildTypes {
         release {
@@ -48,12 +48,17 @@ android {
 }
 
 
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile rootProject.ext.dependencies.supportv7
+    compile rootProject.ext.dependencies.design
     compile rootProject.ext.dependencies.constraint
     testCompile 'junit:junit:4.12'
+
+    compile project(':base')
 }

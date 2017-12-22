@@ -33,7 +33,11 @@
             android:layout_height="wrap_content"
             android:onClick="gotoB"
             android:text="跳转B"/>
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="loginOut"
+            android:text="退出登录"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

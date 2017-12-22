@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">modulea</string>
+    <string name="modulea_app_name">modulea</string>
+    <string name="modulea_password_hint">请输入密码</string>
+    <string name="modulea_username_hint">请输入用户名</string>
+    <string name="modulea_login_text">这是登录界面</string>
+    <string name="modulea_login">登录</string>
 </resources>

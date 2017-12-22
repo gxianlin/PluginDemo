@@ -6,7 +6,7 @@ ext {
 
     android = [
             compileSdkVersion: 25,
-            buildToolsVersion: "26.0.1",
+            buildToolsVersion: "26.0.2",
             applicationId    : "com.ilynn.plugindemo",
             minSdkVersion    : 15,
             targetSdkVersion : 25,
@@ -14,7 +14,10 @@ ext {
             versionName      : "1.0.0"
     ]
     dependencies = [
-            supportv7: 'com.android.support:appcompat-v7:25.3.1',
-            constraint:'com.android.support.constraint:constraint-layout:1.0.2'
+            supportv7  : 'com.android.support:appcompat-v7:25.3.1',
+            constraint : 'com.android.support.constraint:constraint-layout:1.0.2',
+            butterknife: 'com.jakewharton:butterknife:5.1.1',
+            appcompat  : 'com.android.support:appcompat-v7:25.3.1',
+            design     : 'com.android.support:design:25.3.1'
     ]
 }

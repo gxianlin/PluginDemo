@@ -11,7 +11,7 @@ public class TestAActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test_a);
+        setContentView(R.layout.modulea_activity_test_a);
         String data = getIntent().getStringExtra("data");
         Toast.makeText(this, "我是A="+data, Toast.LENGTH_SHORT).show();
     }

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PluginDemo.iml" filepath="$PROJECT_DIR$/PluginDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PluginDemo.iml" filepath="$PROJECT_DIR$/.idea/PluginDemo.iml" />
+      <module fileurl="file://D:\work\android\PluginDemo\PluginDemo.iml" filepath="D:\work\android\PluginDemo\PluginDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/modulea/modulea.iml" filepath="$PROJECT_DIR$/modulea/modulea.iml" />
       <module fileurl="file://$PROJECT_DIR$/moduleb/moduleb.iml" filepath="$PROJECT_DIR$/moduleb/moduleb.iml" />
     </modules>
